@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.DlAUqK2U.js";import{J as c,o as s,D as t}from"./vendor-scheduler.BuXoCeGx.js";const r={};function n(_,p){const o=c("xy-video-player");return s(),t(o,{sources:[{src:"https://www.w3schools.com/html/mov_bbb.mp4",type:"video/mp4"}],height:360})}const i=e(r,[["render",n]]);export{i as default};

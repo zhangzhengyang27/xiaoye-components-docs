@@ -1,0 +1,1 @@
+import{d as o,J as r,o as a,D as s}from"./vendor-scheduler.BuXoCeGx.js";const m=o({__name:"reverse",setup(n){const e=[{key:"a",text:"甲"},{key:"b",text:"乙"},{key:"c",text:"丙"},{key:"d",text:"丁"}];return(c,_)=>{const t=r("xy-avatar-group");return a(),s(t,{items:e,gutter:12,reverse:""})}}});export{m as default};

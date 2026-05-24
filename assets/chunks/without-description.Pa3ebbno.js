@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper.DlAUqK2U.js";import{J as e,o as c,D as n}from"./vendor-scheduler.BuXoCeGx.js";const r={};function s(_,p){const o=e("xy-empty");return c(),n(o,{title:"暂无待处理工单",description:""})}const m=t(r,[["render",s]]);export{m as default};

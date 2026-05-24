@@ -1,0 +1,1 @@
+import{d as t,J as l,o as r,D as p,g as s}from"./vendor-scheduler.BuXoCeGx.js";const m=t({__name:"range",setup(u){const e=s(["2026-03-22","2026-03-28"]);return(c,a)=>{const o=l("xy-date-picker");return r(),p(o,{modelValue:e.value,"onUpdate:modelValue":a[0]||(a[0]=n=>e.value=n),type:"daterange",clearable:""},null,8,["modelValue"])}}});export{m as default};

@@ -1,0 +1,1 @@
+import{d as o,J as s,o as a,D as n}from"./vendor-scheduler.BuXoCeGx.js";const _=o({__name:"basic",setup(r){const e={tooltip:{trigger:"axis"},xAxis:{type:"category",data:["Mon","Tue","Wed","Thu","Fri"]},yAxis:{type:"value"},series:[{type:"line",smooth:!0,data:[12,18,24,21,30]}]};return(c,i)=>{const t=s("xy-charts");return a(),n(t,{option:e,height:320})}}});export{_ as default};

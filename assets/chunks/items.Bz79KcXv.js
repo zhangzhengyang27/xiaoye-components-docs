@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper.DlAUqK2U.js";import{J as r,o as t,D as c}from"./vendor-scheduler.BuXoCeGx.js";const n={};function s(a,m){const e=r("xy-breadcrumb");return t(),c(e,{"separator-icon":"mdi:chevron-right",items:[{label:"结算中心",href:"/"},{label:"对账任务",href:"/components/statistic"},{label:"工单详情"}]})}const l=o(n,[["render",s]]);export{l as default};

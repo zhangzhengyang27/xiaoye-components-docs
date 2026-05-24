@@ -1,0 +1,1 @@
+import{d as t,J as o,o as n,D as r}from"./vendor-scheduler.BuXoCeGx.js";const _=t({__name:"data-items",setup(s){const a=[{key:"xiaoye",text:"叶"},{key:"mavis",icon:"mdi:account-outline"},{key:"luna",src:"https://example.com/avatar.png",alt:"luna avatar"}];return(c,m)=>{const e=o("xy-avatar-group");return n(),r(e,{items:a})}}});export{_ as default};

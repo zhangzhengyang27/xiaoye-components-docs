@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper.DlAUqK2U.js";import{J as e,o as r,D as s}from"./vendor-scheduler.BuXoCeGx.js";const c={};function a(n,_){const o=e("xy-audio-player");return r(),s(o,{src:"https://www.w3schools.com/html/horse.mp3",title:"值班播报",artist:"系统语音"})}const i=t(c,[["render",a]]);export{i as default};

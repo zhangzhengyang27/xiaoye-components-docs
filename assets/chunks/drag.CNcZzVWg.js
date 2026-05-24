@@ -1,0 +1,1 @@
+import{d as n,J as s,o as a,D as p,g as r}from"./vendor-scheduler.BuXoCeGx.js";const _=n({__name:"drag",setup(i){const e=r([]);return(u,o)=>{const t=s("xy-upload");return a(),p(t,{"file-list":e.value,"onUpdate:fileList":o[0]||(o[0]=l=>e.value=l),drag:"",multiple:"",tip:"拖拽上传适合补充材料、附件批量提交等场景"},null,8,["file-list"])}}});export{_ as default};

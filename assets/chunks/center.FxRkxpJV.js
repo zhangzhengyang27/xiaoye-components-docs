@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper.DlAUqK2U.js";import{J as t,o as n,D as r}from"./vendor-scheduler.BuXoCeGx.js";const c={};function s(a,_){const e=t("xy-alert");return n(),r(e,{title:"当前环境处于冻结期，配置修改将在下个窗口生效",type:"warning","show-icon":"",center:""})}const i=o(c,[["render",s]]);export{i as default};

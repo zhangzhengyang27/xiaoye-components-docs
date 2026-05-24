@@ -1,0 +1,1 @@
+import{d as n,J as s,o as r,D as a,g as i}from"./vendor-scheduler.BuXoCeGx.js";const f=n({__name:"directory",setup(p){const e=i([]);return(u,o)=>{const t=s("xy-upload");return r(),a(t,{"file-list":e.value,"onUpdate:fileList":o[0]||(o[0]=l=>e.value=l),directory:"",multiple:"",tip:"支持选择整个目录"},null,8,["file-list"])}}});export{f as default};

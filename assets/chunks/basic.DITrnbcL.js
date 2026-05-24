@@ -1,0 +1,1 @@
+import{d as n,J as s,o as a,D as l,g as i}from"./vendor-scheduler.BuXoCeGx.js";const u=n({__name:"basic",setup(f){const e=i([]);return(r,o)=>{const p=s("xy-upload");return a(),l(p,{"file-list":e.value,"onUpdate:fileList":o[0]||(o[0]=t=>e.value=t),tip:"支持 png、jpg、pdf 等常见格式",accept:".png,.jpg,.jpeg,.pdf"},null,8,["file-list"])}}});export{u as default};

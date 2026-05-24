@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper.DlAUqK2U.js";import{J as n,o as t,D as a}from"./vendor-scheduler.BuXoCeGx.js";const r={};function c(s,_){const e=n("xy-pagination");return t(),a(e,{"current-page":1,"page-size":10,total:42,disabled:""})}const d=o(r,[["render",c]]);export{d as default};

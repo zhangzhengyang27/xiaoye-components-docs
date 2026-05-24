@@ -1,0 +1,9 @@
+import{d as u,J as s,o as x,D as _,E as t,M as o,a as i}from"./vendor-scheduler.BuXoCeGx.js";const w=u({__name:"detail-page-audit",setup(g){const n=[{key:"summary",title:"审核摘要"},{key:"preview",title:"视频预览"}],r=[{label:"审核中心",href:"/"},{label:"视频详情"}],p=[{key:"risk",label:"风险判定",before:"待处理",after:"需复核停留行为",status:"changed"}],d=[{id:"log-1",title:"提交审核",operator:"运营质检组",timestamp:"2026-03-30 10:05",status:"success"}],m=`data:image/svg+xml;utf8,${encodeURIComponent(`
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#0f172a"/>
+  <rect x="56" y="56" width="848" height="428" rx="28" fill="#1e293b"/>
+  <circle cx="480" cy="270" r="76" fill="#f59e0b"/>
+  <path d="M452 222L548 270L452 318Z" fill="#0f172a"/>
+  <text x="88" y="118" font-size="34" fill="#fff" font-family="Arial">Audit Preview</text>
+</svg>
+`)}`;return(b,e)=>{const a=s("xy-button"),l=s("xy-descriptions-item"),f=s("xy-descriptions"),c=s("xy-video-player"),y=s("xy-detail-page");return x(),_(y,{title:"门店巡检视频",description:"DetailPage 负责详情页骨架，VideoPlayer 负责视频预览与回放。",breadcrumbs:r,sections:n,changes:p,logs:d},{actions:t(()=>[o(a,{plain:""},{default:t(()=>[...e[0]||(e[0]=[i("打回重传",-1)])]),_:1}),o(a,{type:"primary"},{default:t(()=>[...e[1]||(e[1]=[i("确认通过",-1)])]),_:1})]),summary:t(()=>[o(f,{column:2,border:""},{default:t(()=>[o(l,{label:"门店"},{default:t(()=>[...e[2]||(e[2]=[i("深圳海岸城店",-1)])]),_:1}),o(l,{label:"拍摄人"},{default:t(()=>[...e[3]||(e[3]=[i("巡检专员",-1)])]),_:1}),o(l,{label:"审核标签"},{default:t(()=>[...e[4]||(e[4]=[i("疑似异常停留",-1)])]),_:1}),o(l,{label:"当前状态"},{default:t(()=>[...e[5]||(e[5]=[i("待复核",-1)])]),_:1})]),_:1})]),preview:t(()=>[o(c,{poster:m,height:380,sources:[{src:"https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",type:"video/mp4"}],options:{playbackRates:[1,1.25,1.5,2]}})]),_:1})}}});export{w as default};

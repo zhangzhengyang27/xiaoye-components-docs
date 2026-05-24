@@ -1,0 +1,8 @@
+import{d as s,J as d,o as n,c as a,G as t,M as l}from"./vendor-scheduler.BuXoCeGx.js";const r={class:"xy-doc-image-demo"},c={class:"xy-doc-image-demo__panel"},g={class:"xy-doc-image-fit-grid"},m={class:"xy-doc-image-fit-card"},f={class:"xy-doc-image-fit-card"},p={class:"xy-doc-image-fit-card"},h=s({__name:"fit",setup(x){const e=`data:image/svg+xml;utf8,${encodeURIComponent(`
+  <svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+    <rect width="320" height="180" fill="#e6edf7" />
+    <rect x="18" y="18" width="284" height="144" rx="24" fill="#60748d" />
+    <circle cx="104" cy="86" r="24" fill="#d9e4f2" />
+    <path d="M48 144L112 92L168 130L224 80L272 144Z" fill="#89a2c8" />
+  </svg>
+`)}`;return(u,i)=>{const o=d("xy-image");return n(),a("div",r,[t("div",c,[i[3]||(i[3]=t("div",{class:"xy-doc-image-demo__meta"},[t("span",{class:"xy-doc-image-demo__kicker"},"Fit"),t("div",null,[t("h4",null,"同一张图在不同裁切模式下的呈现差异"),t("p",null,"适合在封面流、素材卡片和截图对比场景里快速判断哪种 `object-fit` 更合适。")])],-1)),t("div",g,[t("div",m,[i[0]||(i[0]=t("div",null,[t("strong",null,"Cover"),t("p",null,"优先铺满容器，常用于封面和横幅。")],-1)),l(o,{src:e,fit:"cover",alt:"cover",style:{width:"100%",height:"120px","border-radius":"16px"}})]),t("div",f,[i[1]||(i[1]=t("div",null,[t("strong",null,"Contain"),t("p",null,"完整保留内容，更适合截图和图表。")],-1)),l(o,{src:e,fit:"contain",alt:"contain",style:{width:"100%",height:"120px","border-radius":"16px",background:"#f6f8fb"}})]),t("div",p,[i[2]||(i[2]=t("div",null,[t("strong",null,"Fill"),t("p",null,"强制拉伸填满容器，适合占位对齐演示。")],-1)),l(o,{src:e,fit:"fill",alt:"fill",style:{width:"100%",height:"120px","border-radius":"16px"}})])])])])}}});export{h as default};
